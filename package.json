@@ -15,9 +15,10 @@
     , "run": "nodemon app.js"
   },
   "dependencies": {
-    "underscore": "1.7.0"
-    , "request": "2.61.0"
-    , "async": "1.4.2"
+    "underscore": "1.7.0",
+    "request": "2.61.0",
+    "async": "1.4.2",
+    "express": "4.13.4" 
   },
   "devDependencies": {
     "nodemon": "1.2.1" 
