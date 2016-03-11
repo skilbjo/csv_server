@@ -1,7 +1,8 @@
 var path = require('path'),
 	fs = require('fs'),
-	csvdir = '/Users/jskilbeck/Code/Node/aqtl/csv'
-
+	devDir = '/Users/jskilbeck/Code/Node/aqtl/csv',
+	prodDir = '/home/skilbjo/node/app/aqtl/csv',
+	csvdir = prodDir
 	;
 
 exports.index = function(req, res) {

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+APP=csv_server
+DEPLOYDIR=~/node/app/$APP
+
+GIT_WORK_TREE="$DEPLOYDIR" git checkout -f
+
+cd "$DEPLOYDIR"
+
+npm install
+
+node server.js &
+
+echo 'All done :D'
