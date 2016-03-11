@@ -4,7 +4,7 @@ var
 	;
 
 // controller ===
-var controller = require('./app/controller.js')
+var controller = require('./app/controller.js');
 
 require('./app/routes.js')(app, controller);
 
